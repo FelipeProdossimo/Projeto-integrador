@@ -1,0 +1,268 @@
+.imagem-cabecalho{
+    height: 114px;
+    display: flexbox;
+    text-align: center;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    background: green;
+}
+.cliente{
+    display: flex;
+    align-items: center;
+    width: 400%;
+    height: 70px;
+    margin-left: 0 auto;
+    margin-right: 100%;
+}
+.cliente h2{
+    margin-right: 2%;
+}
+.login{
+        display: flexbox;
+        text-align: center;
+        color: green;
+}
+.img-entrar{
+    width: 60px;
+    background: rgb(0, 195, 255);
+}
+.imagens{
+    height: 420px;
+}
+.linha-texto{
+    display: flex;
+    align-items: center;
+}
+.bloco-1{
+    font-size: 35px;
+    color: black;
+}
+.bloco-2{
+    font-size: 35px;
+    color: black;
+}
+.bloco-3{
+    font-size: 35px;
+    color: black;
+}
+.icon-mais{
+    height: 43px; 
+    background: white;
+}
+
+.ultimo-bloco{
+    text-align: center;
+}
+.seta{
+    height: 50px;
+}
+.ult-texto{
+    text-align: center;
+}
+.grupo-icon{
+   text-align: center;
+}
+.icon1{
+    height: 70px;
+}
+.icon2{
+    height: 70px;
+}
+.icon3{
+    height: 70px;
+}
+.icon4{
+    height: 70px;
+}
+
+
+.login-cliente{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.bem-vindo{
+    text-align: center;
+}
+
+.logado{
+    display: flexbox;
+    text-align: center;
+}
+.logado1{
+    display: flexbox;
+    text-align: center;
+}
+
+.logado1 img{
+    width: 50px;
+    height: 50px;
+}
+
+.nome-cliente{
+    display: flexbox;
+    text-align: center;
+}
+
+.img-logado{
+    width: 100px;
+    height: 100px;
+}
+
+
+.img-deslogar{
+    width: 85px;
+    height: 85px;
+    float: center;
+}
+
+#formSelectItem{
+display: flexbox;
+padding-right: 10%;
+padding-left: 10%;
+}
+
+#formSelectQualidade{
+    display: flexbox;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+#formSelectPreco{
+    display: flexbox;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+#checkOne{
+    padding-left: 35%;
+}
+
+
+.pedidos{
+    height: 100px;
+    width: 100%;
+    border: 1px solid #00a1e6;
+    text-align: left;
+}
+
+#pedidos{
+    width: 750px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 50px;
+}
+
+.form-group{
+    width: 40%;
+    display: flex;
+    text-align: center;
+}
+
+.form-group label{
+    margin-top: 10%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.form-control{
+    margin-top: 9%;
+}
+
+.form-control option{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.vitrine { 
+    height: 860px; 
+    width: 100%; 
+    background-color: #00a1e6; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+} 
+
+.livros{
+    height: 200px;
+    width: 180px;
+}
+
+.txt-preco{
+    width: 45%;
+    display: flex;
+    text-align: center;
+    bottom: auto;
+    background: white;
+}
+
+.item-1{
+    margin-top: 6px;
+    display: flex;
+    text-align: center;
+    border: 5px solid black;
+    background: white;
+}
+
+.item-2{
+    margin-top: px;
+    display: flex;
+    text-align: center;
+    border: 5px solid black;
+    background: white;
+}
+
+
+.txt-qualidade{
+    margin-top: -70px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.txt-preco button{
+    background: black;
+
+}
+
+.txt-preco input{
+    width: 900px;
+}
+
+.informacoes{
+    text-align: center;
+    display: flex;
+    margin-top: 70px;
+    margin-right: 40px;
+}
+
+.direitos{
+    text-align: center;
+}
+
+.texto-sumir1{
+    display: none;
+    color: green;
+}
+.botao-sumir1{
+    border: 0px solid;
+}
+.texto-sumir2{
+    display: none;
+    color: green;
+}
+.botao-sumir2{
+    border: 0px solid;
+}
+.texto-sumir3{
+    display: none;
+    color: green;
+}
+.botao-sumir3{
+    border: 0px solid;
+}
+
+.linha-texto p{
+    font-size: 150%;
+}
