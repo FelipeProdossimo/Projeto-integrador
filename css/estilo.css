@@ -127,8 +127,8 @@ padding-left: 10%;
 
 #formSelectQualidade{
     display: flexbox;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 
 #formSelectPreco{
@@ -140,6 +140,11 @@ padding-left: 10%;
     padding-left: 35%;
 }
 
+#buttonPesquisa{
+    display: flex;
+    padding-left: 46%;
+    padding-right: 46%;
+}
 
 .pedidos{
     height: 100px;
