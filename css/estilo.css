@@ -1,5 +1,5 @@
 .imagem-cabecalho{
-    height: 114px;
+    height: 100%;
     display: flexbox;
     text-align: center;
 }
@@ -144,6 +144,13 @@ padding-left: 10%;
     display: flex;
     padding-left: 46%;
     padding-right: 46%;
+    background: green;
+}
+
+#linkPesquisar{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
 }
 
 .pedidos{
@@ -270,4 +277,24 @@ padding-left: 10%;
 
 .linha-texto p{
     font-size: 150%;
+}
+
+#sell-item{
+    width: 500px;
+    display: flex;
+    float: left;
+}
+
+#checkDisponivel{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 215px;
+}
+
+#textCheck{
+    display: flex;
+}
+
+#tituloItem{
+    text-align: center;
 }
