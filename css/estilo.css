@@ -7,6 +7,7 @@
     max-width: 100%;
     height: auto;
     background: green;
+    width: 100%;
 }
 .cliente{
     display: flex;
@@ -151,6 +152,7 @@ padding-left: 10%;
     color: white;
     text-decoration: none;
     font-size: larger;
+    width: 120%;
 }
 
 .pedidos{
@@ -285,16 +287,81 @@ padding-left: 10%;
     float: left;
 }
 
-#checkDisponivel{
+#sell-item-02{
+    width: 600px;
     display: flex;
+    float: left;
+}
+
+#origemItem{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: -15px;
+    display: flex;
+}
+
+#carrinho{
+    width: 60px;
+    height: 55px;
+    border: solid 1px black;
+    margin-left: 750%;
+    margin-top: -20%;
+}
+
+#carrinho02{
+    width: 60px;
+    height: 55px;
+    border: solid 1px black;
+    margin-left: 850%;
+    margin-top: -20%;
+}
+
+#checkDisponivel{
     margin-top: 7px;
-    margin-left: 215px;
+    margin-left: 40%;
 }
 
 #textCheck{
     display: flex;
+    margin-top: 2%;
 }
 
 #tituloItem{
     text-align: center;
+}
+
+#propagandaItem{
+    text-align: center;
+}
+
+#precoItem{
+    text-align: center;
+    color: #00a1e6;
+}
+
+#precoItem s{
+    color: green;
+}
+
+#descricaoItem{
+    text-align: center;
+    color: green;
+}
+
+#usuariosItem{
+    text-align: center;
+}
+
+#usuariosItem02{
+    margin-left: 59%;
+}
+
+#comprarItem{
+    margin-left: 26%;
+    margin-top: 8%;
+}
+
+#comprarItem02{
+    margin-left: 70%;
+    margin-top: 2%;
 }
