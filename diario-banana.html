@@ -21,32 +21,35 @@
             <img src="imagem/Cabecalho.jpg" alt="imagem responsiva" class="img-fluid">
         </div>
     </div>
-    <button type="submit" class="btn btn-primary my-1" id="buttonPesquisa"><a id="linkPesquisar"
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-success" type="button"><a id="linkPesquisar"
             href="pesquisado.html">RETORNAR</a></button>
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-text" id="origemItem">
-            &nbsp; &nbsp; LIVROS> &#9733;&#9733;&#9733;&#9733;&#9733;> PREÇO GERAL>
-            <span class="img-logo img-responsive" alt="Responsive image">
-                <img src="imagem/icon-1001596_1280.png" alt="carrinho" id="carrinho02">
-            </span>
-        </span>
-
+    </div>
+    <nav class="navbar navbar-light bg-light row">
+        <div class="col-xl-6">
+            LIVROS> &#9733;&#9733;&#9733;&#9733;&#9733;> PREÇO GERAL>
+        </div>
+        <div class="col-xl-6 text-right">
+            <img src="imagem/icon-1001596_1280.png" class="float-end" alt="carrinho" id="carrinho">
+        </div>
     </nav>
-    <div>
-        <img src="imagem/diario-banana-prop.jpg" alt="item harry para vender" class="img-thumbnail" id="sell-item-02">
-
-        <a id="textCheck"><input type="checkbox" id="checkDisponivel" name="option1" checked="checked"
-                onclick="return false;">&nbsp;Item disponivel!</a>
-        <br>
-        <h1 id="tituloItem">Dupla de livros do O Diario de um Banana</h1>
-        <br>
-        <p id="propagandaItem">Incluí 2 livros da série!</p>
-        <h1 id="precoItem">R$ 31,50 <s> R$ 63,00 </s> </h1>
-        <br>
-        <h2 id="descricaoItem">PRODUTO COM A METADE DO PREÇO, VAMO NESSA!!!</h2>
-        <br>
-        <p id="usuariosItem02">Classificado por usuários &#9733;&#9733;&#9733;&#9733;&#9733; para este item!</p>
-        <button type="button" class="btn btn-danger" id="comprarItem02">COMPRAR</button>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <img src="imagem/diario-banana-prop.jpg" alt="item harry para vender" class="img-thumbnail" id="sell-item">
+        </div>
+        <div class="col-12 col-md-6 text-center">
+            <a id="textCheck"><input type="checkbox" id="checkDisponivel" name="option1" checked="checked"
+                    onclick="return false;">&nbsp;Item disponivel!</a>
+            <br>
+            <h1 id="tituloItem">Dupla de livros do O Diario de um Banana</h1>
+            <br>
+            <p id="propagandaItem">Incluí 2 livros da série!</p>
+            <h1 id="precoItem">R$ 31,50 <s> R$ 63,00 </s> </h1>
+            <br>
+            <h2 id="descricaoItem">PRODUTO COM A METADE DO PREÇO, VAMO NESSA!!!</h2>
+            <br>
+            <p id="usuariosItem">Classificado por usuários &#9733;&#9733;&#9733;&#9733;&#9733; para este item!</p>
+            <button type="button" class="btn btn-danger" id="comprarItem02">COMPRAR</button>
 
     </div>
 </body>

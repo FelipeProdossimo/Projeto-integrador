@@ -49,57 +49,68 @@
             </div>
         </div>
     </div>
-    <form class="form-inline" id="form-item">
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Itens</label>
-        <select class="custom-select my-1 mr-sm-2" id="formSelectItem">
-            <option selected>LIVROS</option>
-            <option value="1">TODOS</option>
-            <option value="2">NOTEBOOKS</option>
-        </select>
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Qualidade</label>
-        <select class="custom-select my-1 mr-sm-2" id="formSelectQualidade">
-            <option selected>&#9733;&#9733;&#9733;&#9733;&#9733;</option>
-            <option value="1">&#9733;&#9733;&#9733;&#9733;</option>
-            <option value="2">&#9733;&#9733;&#9733;</option>
-            <option value="3">&#9733;&#9733;</option>
-            <option value="4">&#9733;</option>
-        </select>
-        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preço</label>
-        <select class="custom-select my-1 mr-sm-2" id="formSelectPreco">
-            <option selected>PREÇO GERAL</option>
-            <option value="1">PARA O MAIOR AO MENOR</option>
-            <option value="2">PARA O MENOR AO MAIOR</option>
-        </select>
-        <div class="custom-control custom-checkbox my-1 mr-sm-2" id="checkOne">
-            <input type="checkbox" class="custom-control-input" id="customControlInline" checked>
-            <label class="custom-control-label" for="customControlInline" id="checkLembrar">Lembrar minha pesquisa
-                anterior!</label>
+    <div class="row">
+        <div class="col-12 col-md-6 text-center block">
+            <form class="form-inline" id="form-item">
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref" id="item01">Itens</label>
+                <select class="custom-select my-1 mr-sm-2" id="formSelectItem">
+                    <option selected>LIVROS</option>
+                    <option value="1">TODOS</option>
+                    <option value="2">NOTEBOOKS</option>
+                </select>
         </div>
-
-        <button type="submit" class="btn btn-primary my-1" id="buttonPesquisa"><a id="linkPesquisar"
-                href="login.html">RETORNAR</a></button>
-    </form>
-
-    <div class="container">
-        <div class="card-deck">
-            <div class="card text-center mb-4">
-                <a href="#"><img class="card-img-top" src="imagem/harry-potter.jpg" alt="Imagem de capa do card"></a>
-                <div class="card-body d-flex flex-column align-items-center">
-                    <h5 class="card-title">Kit Livros Harry Potter</h5>
-                    <p class="card-text">Compre esta coleção magnifica ou dê como presente.</p>
-                    <a href="kit-harry.html" class="btn btn-info mt-auto">Ver item</a>
-                </div>
-            </div>
-            <div class="card text-center mb-4">
-                <a href="#"><img class="card-img-top" src="imagem/diario-banana.jpg" alt="Imagem de capa do card"></a>
-                <div class="card-body d-flex flex-column align-items-center">
-                    <h5 class="card-title">Conjunto Diário de um banana</h5>
-                    <p class="card-text">Pague 1 leve 2, conteúdo incrivel para uma aventura!!</p>
-                    <a href="diario-banana.html" class="btn btn-info mt-auto">Ver item</a>
-                </div>
+        <div class="col-12 col-md-6 text-center block>
+            <label class=" my-1 mr-2" for="inlineFormCustomSelectPref" id="item02">Qualidade</label>
+            <select class="custom-select my-1 mr-sm-2" id="formSelectQualidade">
+                <option selected>&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                <option value="1">&#9733;&#9733;&#9733;&#9733;</option>
+                <option value="2">&#9733;&#9733;&#9733;</option>
+                <option value="3">&#9733;&#9733;</option>
+                <option value="4">&#9733;</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 text-center block">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref" id="item03">Preço</label>
+            <select class="custom-select my-1 mr-sm-2" id="formSelectPreco">
+                <option selected>PREÇO GERAL</option>
+                <option value="1">PARA O MAIOR AO MENOR</option>
+                <option value="2">PARA O MENOR AO MAIOR</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-6 text-center block">
+            <div class="custom-control custom-checkbox my-1 mr-sm-2" id="checkOne">
+                <input type="checkbox" class="custom-control-input" id="customControlInline" checked>
+                <label class="custom-control-label" for="customControlInline" id="checkLembrar">Lembrar minha pesquisa
+                    anterior!</label>
             </div>
         </div>
-    </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button"><a id="linkPesquisar" href="login.html">RETORNAR</a></button>
+        </div>
+        </form>
+
+        <div class="container">
+            <div class="card-deck">
+                <div class="card text-center mb-4">
+                    <a href="#"><img class="card-img-top" src="imagem/harry-potter.jpg"
+                            alt="Imagem de capa do card"></a>
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title">Kit Livros Harry Potter</h5>
+                        <p class="card-text">Compre esta coleção magnifica ou dê como presente.</p>
+                        <a href="kit-harry.html" class="btn btn-info mt-auto">Ver item</a>
+                    </div>
+                </div>
+                <div class="card text-center mb-4">
+                    <a href="#"><img class="card-img-top" src="imagem/diario-banana.jpg"
+                            alt="Imagem de capa do card"></a>
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title">Conjunto Diário de um banana</h5>
+                        <p class="card-text">Pague 1 leve 2, conteúdo incrivel para uma aventura!!</p>
+                        <a href="diario-banana.html" class="btn btn-info mt-auto">Ver item</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <h1 class="ultimo-bloco">Entre em contato conosco!! <br> Escolha dentre as opções abaixo! </h1>
 

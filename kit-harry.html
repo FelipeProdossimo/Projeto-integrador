@@ -21,35 +21,37 @@
             <img src="imagem/Cabecalho.jpg" alt="imagem responsiva" class="img-fluid">
         </div>
     </div>
-    <button type="submit" class="btn btn-primary my-1" id="buttonPesquisa"><a id="linkPesquisar"
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-success" type="button"><a id="linkPesquisar"
             href="pesquisado.html">RETORNAR</a></button>
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-text" id="origemItem">
-            &nbsp; &nbsp; LIVROS> &#9733;&#9733;&#9733;&#9733;&#9733;> PREÇO GERAL>
-            <span class="navbar-text">
-                <img src="imagem/icon-1001596_1280.png" alt="carrinho" id="carrinho">
-            </span>
-        </span>
-
-    </nav>
-    <div>
-        <img src="imagem/item-harry.jpg" alt="item harry para vender" class="img-thumbnail" id="sell-item">
-
-        <a id="textCheck"><input type="checkbox" id="checkDisponivel" name="option1" checked="checked"
-                onclick="return false;">&nbsp;Item disponivel!</a>
-        <br>
-        <h1 id="tituloItem">Kit Livros Harry Potter</h1>
-        <br>
-        <p id="propagandaItem">Incluí 7 livros da sequência do Harry Potter!</p>
-        <h1 id="precoItem">R$ 75,00 <s> R$ 100,00 </s> </h1>
-        <br>
-        <h2 id="descricaoItem">PROMOÇÃO DE 25% ATÉ DOMINGO APROVEITE</h2>
-        <br>
-        <p id="usuariosItem">Classificado por usuários &#9733;&#9733;&#9733;&#9733;&#9733; para este item!</p>
-        <button type="button" class="btn btn-danger" id="comprarItem">COMPRAR</button>
-
     </div>
-
+    <nav class="navbar navbar-light bg-light row">
+        <div class="col-xl-6">
+            LIVROS> &#9733;&#9733;&#9733;&#9733;&#9733;>PREÇO GERAL>
+        </div>
+        <div class="col-xl-6 text-right">
+            <img src="imagem/icon-1001596_1280.png" class="float-end" alt="carrinho" id="carrinho">
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <img src="imagem/item-harry.jpg" alt="item harry para vender" class="img-thumbnail" id="sell-item">
+        </div>
+        <div class="col-12 col-md-6 text-center">
+            <a id="textCheck"><input type="checkbox" id="checkDisponivel" name="option1" checked="checked"
+                    onclick="return false;">&nbsp;Item disponivel!</a>
+            <br>
+            <h1 id="tituloItem">Kit Livros Harry Potter</h1>
+            <br>
+            <p id="propagandaItem">Incluí 7 livros da sequência do Harry Potter!</p>
+            <h1 id="precoItem">R$ 75,00 <s> R$ 100,00 </s> </h1>
+            <br>
+            <h2 id="descricaoItem">PROMOÇÃO DE 25% ATÉ DOMINGO APROVEITE</h2>
+            <br>
+            <p id="usuariosItem">Classificado por usuários &#9733;&#9733;&#9733;&#9733;&#9733; para este item!</p>
+            <button type="button" class="btn btn-danger" id="comprarItem">COMPRAR</button>
+        </div>
+    </div>
 
 </body>
 

@@ -120,6 +120,7 @@
     float: center;
 }
 
+
 #formSelectItem{
 display: flexbox;
 padding-right: 10%;
@@ -137,14 +138,9 @@ padding-left: 10%;
     padding-right: 3%;
     padding-left: 3%;
 }
-#checkOne{
-    padding-left: 35%;
-}
 
 #buttonPesquisa{
-    display: flex;
-    padding-left: 46%;
-    padding-right: 46%;
+
     background: green;
 }
 
@@ -220,7 +216,7 @@ padding-left: 10%;
 }
 
 .item-2{
-    margin-top: px;
+    margin-top: 6px;
     display: flex;
     text-align: center;
     border: 5px solid black;
@@ -304,8 +300,6 @@ padding-left: 10%;
     width: 60px;
     height: 55px;
     border: solid 1px black;
-    margin-left: 750%;
-    margin-top: -20%;
 }
 
 #carrinho02{
@@ -318,11 +312,10 @@ padding-left: 10%;
 
 #checkDisponivel{
     margin-top: 7px;
-    margin-left: 40%;
 }
 
 #textCheck{
-    display: flex;
+    display: block;
     margin-top: 2%;
 }
 
@@ -357,11 +350,9 @@ padding-left: 10%;
 }
 
 #comprarItem{
-    margin-left: 26%;
     margin-top: 8%;
 }
 
 #comprarItem02{
-    margin-left: 70%;
     margin-top: 2%;
 }
